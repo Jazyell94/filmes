@@ -1,0 +1,41 @@
+body {
+  background: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.player {
+  background: black;
+  position: relative;
+}
+
+video {
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  background: rgba(0,0,0,0.8);
+}
+
+button, select {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="range"] {
+  cursor: pointer;
+}
+
+#progress {
+  flex: 1;
+}
