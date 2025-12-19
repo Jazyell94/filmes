@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Player Customizado</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="player">
+  <video id="video" preload="metadata">
+    <source src="assets/video/Ne.Zha.2.O.Renascer.da.Alma.2025.mp4" type="video/mp4" data-quality="720">
+  </video>
+
+  <div class="controls">
+    <button id="play">▶</button>
+    <button id="rewind">⏪</button>
+    <button id="forward">⏩</button>
+
+    <span id="time">0:00 / 0:00</span>
+
+    <input type="range" id="progress" value="0">
+
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+
+    <button id="fullscreen">⛶</button>
+  </div>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
